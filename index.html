@@ -1,303 +1,465 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Xandre De Paula">
-    <meta name="description" content="Portfólio">
-    <meta name="keywords" content="Xandre De Paula, portfólio, web">
-    <link rel="shortcut icon" href="./img/icon_learning.svg">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsiveness.css">
-    <link rel="stylesheet" href="./css/animations.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <title>Xandre De Paula</title>
+
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Portfólio - Xandre De Paula </title>
+
+      <!-- ======= CSS FILES ====== -->
+
+      <link rel="stylesheet" href="css\style.css">
+      <link rel="stylesheet" href="css/skins/color-1.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+         <!-- ======= Style Swicther ====== -->
+    
+      <link rel="stylesheet" href="css/styleswitcher.css">
+
+      <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+      <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+      <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+      <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+      <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5"disabled>
 </head>
 
 <body>
-    <div id="imageBackground">
-        <picture>
-            <source media="(max-width:720px)" srcset="./img/imageBackground640x345.jpg">
-            <source media="(max-width:1000px)" srcset="./img/perf.jpg">
-            <img src="./img/perf.jpg" alt="Flowers">
-        </picture>
-    </div>
-    <nav class="navSocialNetworks">
-        <a href="https://www.linkedin.com/in/xandre23/" target="black">
-            <img src="./img/icon_linkedin.svg" alt="Icone do linkedin">
-        </a>
-        
-        <a href="https://github.com/xandre23" target="black">
-            <img src="./img/icon_GuitHub.svg" alt="Icone do GuitHub">
-        </a>
-        <a href=" https://wa.me/5511987527124" target="black">
-            <img src="./img/icon_whatsapp.svg" alt="Icone do Whatsapp">
-        </a>
-    </nav>
-    <div id="presentation" class="generalFormatting">
-        <div id="myPicture">
-            <img src="./img/xandreimg.jpeg" alt="Minha foto">
-        </div>
-        <div id="titleInformation">
-            <h1>Olá, meu nome é Xandre De Paula</h1>
-            <h2>Desenvolvedor de software</h2>
-        </div>
-        <div id="information">
-            <ul>
-                <li>Idade: 21 anos</li>
-                <li>Endereço: Rua Progresso,Guaianases, SP</li>
-                <li>Celular: (11) 98752 - 7124</li>
-                <li>Telefone: (11) 2961 - 7856</li>
-                <li>E-mail: xandredepaula2312@gmail.com</li>
-            </ul>
-            <nav class="navSocialNetworksPresentation">
-                <a href="https://www.linkedin.com/in/xandre23/" target="black">
-                    <img src="./img/icon_linkedin.svg" alt="Icone do linkedin">
-                </a>
-                
-                </a>
-                <a href="https://github.com/xandre23" target="black">
-                    <img src="./img/icon_GuitHub.svg" alt="Icone do GuitHub">
-                </a>
-                <a href=" https://wa.me/5511987527124" target="black">
-                    <img src="./img/icon_whatsapp.svg" alt="Icone do Whatsapp">
-                </a>
-            </nav>
-        </div>
-    </div>
-    <section id="about" class="generalFormatting">
-        <h2>Sobre mim </h2>
-        <p> Sou estudante de analise desenvolvimento de sistemas, na universidade nove de julho (Uninove Memorial).
-            Estou a procura do meu primeiro estágio na area de desenvolvimento tanto back-end como front-end, estou
-            apto a aprender e me desenvolver diantes os ensinamentos!. Atualmente estou no 5º semestre conclusão em junho
-            de 2022. 
-        </p>
-        <a id="btnDownloadCurriculo" href="./pdf/Curriculo Xandre De Paula R.pdf" target="black">
-            <img src="./img/download.svg" alt="icone de download">
-            <span>Currículo</span>
-        </a>
 
-    </section>
-    <nav class="navInternalLinks">
-        <a href="#imageBackground">Xandre De Paula</a>
-        <a href="#imageBackground">Home</a>
-        <a href="#about">Sobre</a>
-        <a href="#skills" id="navSkills">Habilidades</a>
-        <a href="#formation" id="navFormation">Formação</a>
-        <a href="#professionalExperience" id="navPortfolio">Portfólio</a>
-        <a href="#freeCourses">Cursos livres</a>
-    </nav>
-    <section id="skills" class="generalFormatting">
-        <h2 data-anime="left">Habilidades Profissionais</h2>
-        <div class="softwareDevelopmentSkills">
-            <div>
-                <h2 data-anime="left">Desenvolvimento Front-end</h2>
-                <div data-anime="left">
-                    <p>HTML5 e CSS</p>
-                    <div class="progress-bar" style="--progress: 80;"></div>
-                </div>
-                <div data-anime="left">
-                    <p>JavaScript puro</p>
-                    <div class="progress-bar" style="--progress: 40;"></div>
-                </div>
-                <div data-anime="left">
-                    <p>Angular</p>
-                    <div class="progress-bar" style="--progress: 20;"></div>
-                </div>
-                
-                <div data-anime="left">
-                    <p>Bootstrap</p>
-                    <div class="progress-bar" style="--progress: 30;"></div>
-                </div>
-            </div>
-            <div>
-                <h2 data-anime="right">Banco de dados</h2>
-                <div data-anime="right">
-                    <p>MySQL</p>
-                    <div class="progress-bar" style="--progress: 50;"></div>
-                </div>
-            
-                <h2 data-anime="left">Desenvolvimento Back-end</h2>
-                <div data-anime="left">
-                    <p>JAVA </p>
-                    <div class="progress-bar" style="--progress: 30;"></div>
-                
-            </div>
-            <div>
-                <h2 data-anime="right">Versionamento de código</h2>
-                <div data-anime="right">
-                    <p>Git e GitHub</p>
-                    <div class="progress-bar" style="--progress: 60;"></div>
-                </div>
-            </div>
-        </div>
+      <!-- ====== Main Container Start ====== -->
 
-        <div class="hardwareAndNetworkingSkills">
-            <div>
-                <h2 data-anime="left">Hardware</h2>
-                <div data-anime="left">
-                    <p>Conhecimento das peças</p>
-                    <div class="progress-bar" style="--progress: 90;"></div>
-                </div>
-                <div data-anime="left">
-                    <p>Montagem e desmontagem</p>
-                    <div class="progress-bar" style="--progress: 90;"></div>
-                </div>
-                <div data-anime="left">
-                    <p>Instalação de sistemas operacionais</p>
-                    <div class="progress-bar" style="--progress: 90;"></div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <section id="formation" class="generalFormatting">
-        <h2 data-anime="left">Formação</h2>
-        <div id="cards">
-            <div class="cardFormation" id="card1" data-anime="left">
-                <h2>Escola E.E Ernestina del buono trama professora </h2>
-                <p>Curso: Ensino médio</p>
-            </div>
-            
-            <div class="triangle" id="triangle1" data-anime="left"></div>
-            <div class="flip-container" id="card2" data-anime="left">
-                <div class="cardFormation flipper">
-                    <div class="front">
-                        <h2>Universidade Nove De Julho (Memorial)”</h2>
-                        <p>Curso: Analise Desenvolvimento de sistemas</p>
-                        <p>Carga horária: 21170h</p>
-                    </div>
-                    
-                    <div class="back">
-                        <a href="./pdf/pc_desenolvimento_de_sistemas_1125_horas.pdf" target="blank">Plano do curso</a>
-                    </div>
-                </div>
-            </div>
-            <div class="triangle" id="triangle2" data-anime="left"></div>
-            <div class="flip-container" id="card3" data-anime="left">
-                <div class="cardFormation flipper">
-                    <div class="front">
-                        <h2>Universidade Nove De Julho (Memorial)”</h2>
-                        <p>Curso: Analise Desenvolvimento de sistemas</p>
-                        <p>Carga horária: 21.170h</p>
-                    </div>
-                    <div class="back">
-                        <a href="./pdf/plano_do_curso_técnico_em_informática.pdf" target="blank">Plano do curso</a>
-                    </div>
-                </div>
-            </div>
-            <div class="triangle" id="triangle3" data-anime="left"></div>
-            <div class="date" id="date1" data-anime="left">2016 - 2018</div>
-            <div class="square" data-anime="left">
-                <div></div>
-            </div>
-            <div class="date" id="date2" data-anime="left">2020 - 2022</div>
-            <div class="square" id="square2" data-anime="left">
-                <div></div>
-            </div>
-            <div class="date" id="date3" data-anime="left">2021 - até agora</div>
-            <div class="square" id="square3" data-anime="left">
-                <div></div>
-            </div>
-            <div class="line"></div>
-        </div>
+      <div class="main-container">
 
-    </section>
-    <section id="professionalExperience" class="generalFormatting">
-        <h2>Experiência profissional</h2>
-        <div data-anime="top">
-            <p>Em busca do primeiro emprego</p>
-        </div>
-    </section>
-    <section id="portfolio" class="generalFormatting">
-        <h2>Portfólio</h2>
-        <div>
-            <div class="cardPortfolio" data-anime="bottom">
-                <h2>Sistema de delivery</h2>
-                <p>trabalho academico feito em grupo, utilizamos boas praticas de programação e jsp ensinado em aula!.</p>
+            <!-- ====== Aside Start ====== -->
 
-                <a href="https://github.com/Xandre23/Sistema-de-delivery" target="_blank">
-                    <img style="width: 25px; height: 25px;" src="./img/icon_GuitHub_white.svg" alt="Icone do GuitHub">
-                    <span class="spanRepositorio">Repositório</span>
-                </a>
-                <span class="category">JAVA</span>
-                <span class="category">JSP</span>
-                <span class="category">MySql</span>
-                
-            </div>
-
-            <div>
-                <div class="cardPortfolio" data-anime="bottom">
-                    <h2>Projetos Básicos</h2>
-                    <p>Projetos básicos, para treinamento de sistemas web, seguindo uma logica e treinando HTML + CSS</p>
-    
-                    <a href="https://github.com/Xandre23/projetos" target="_blank">
-                        <img style="width: 25px; height: 25px;" src="./img/icon_GuitHub_white.svg" alt="Icone do GuitHub">
-                        <span class="spanRepositorio">Repositório</span>
-                    </a>
-                    <span class="category">HTML</span>
-                    <span class="category">CSS</span>
-                    <span class="category">PHP</span>
-                    <span class="category">jS</span>
-                    
-                </div>
-
-            
-        </div>
-    </section>
-    <section id="freeCourses" class="generalFormatting">
-        <h2>Cursos livres</h2>
-        <div>
-            <div class="cardFreeCourses" data-anime="left">
-                
-                        <img src="./img/senai.png" alt="Logo do SENAI">
-                    </picture>
-                </figure>
-                <div>
-                    <p>Senai - Programação JAVA - (60 Horas) Presencial</p>
-                </div>
-            </div>
-            <div class="cardFreeCourses" data-anime="left">
-                <figure>
-                    <picture>
-                        <source media="(max-width:1200px)">
-                        <img src="./img/udm.jpg" alt="Logo da udemy">
+            <div class="aside">
+                  <div class="logo">
+                        <a href="#"><span>X</span>andre<br> Desenvolvedor</a>
                         
-                    </picture>
-                </figure>
-                <div >
-                    <p>Udemy Desenvolvimento Web Completo
-                        2020 - 20 cursos + 20 projetos. (109 Horas).</p>
-                </div>
+                  </div>
+                  <div class="nav-toggler">
+                        <span></span>
+                  </div>
+                  <ul class="nav">
+                        <li><a href="#home" class="active"><i class="fa fa-home"></i> Início </a></li>
+                        <li><a href="#about"><i class="fa fa-user"></i> Sobre mim </a></li>
+                        <li><a href="#services"><i class="fa fa-list"></i> Serviços </a></li>
+                        <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfólio  </a></li>
+                        <li><a href="#contact"><i class="fa fa-comments"></i> Contato </a></li>
+                  </ul>
             </div>
-            <div class="cardFreeCourses" data-anime="right">
-                <figure>
-                    <picture>
-                        <source media="(max-width:1200px)">
-                        <img src="./img/t.jpg" alt="Logo do tiete">
-                    </picture>
-                </figure>
-                <div>
-                    <p>Instituto Educacional Alto Tietê – Concluído - (Introdução à Informática 2.0,
-                        Redes Sociais, Windows 10, Word 2016 – Módulo I, Excel 2016 – Módulo I,
-                        PowerPoint 2016, Access 2016, Word 216 – Módulo II, Internet 3.0, Excel 2016
-                        – Módulo II, Excel 2016 – Módulo III). (118 Horas).
-                        </p>
-                </div>
-            </div>
-           
-                  
-                   
-                
-    </section>
-    <footer>
-        <div>
-            <h1> Desenvolvido por Xandre De Paula</h1>
-        </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+            <!-- ====== Aside End ====== -->
+            <!-- ====== Main Content Start ====== -->
+
+            <div class="main-content">
+
+                  <!-- ====== Home Section Start ====== -->
+                  <section class="home section " id="home">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="home-info padd-15">
+                                          <h3 class="hello"> Olá, meu nome é <span class="name">Xandre De Paula</span>
+                                          </h3>
+                                          <h3 class="my-profession">Eu sou um  <span class="typing">
+                                                      </span></h3>
+                                          <p> 
+                                                Tenho entusiasmo para crescer junto com a empresa, capacidade de resolver desde
+                                                dos problemas mais simples aos mais difíceis e sempre ajudo a alcançar
+                                                  os melhores resultados.</p>
+                                          <a href="#contact" class="btn hire-me">Contrate-me</a>
+                                    </div>
+                                    <div class="home-img padd-15 ">
+                                          <img src="images/xandre2.jpeg" alt="">
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <!-- ====== Home Section End ====== -->
+                  <!-- ====== About Section Start ====== -->
+
+                  <section class="about section" id="about">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="section-title padd-15">
+                                          <h2>Sobre mim</h2>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <div class="about-content padd-15">
+                                          <div class="row">
+                                                <div class="about-text padd-15">
+                                                      <h3>Eu sou Xandre De Paula <span>Desenvolvedor Back-end</span>
+                                                      </h3>
+                                                      <p> Sou estudante de analise desenvolvimento de sistemas, na universidade nove de julho (Uninove Memorial). Estou a procura do meu primeiro estágio ou uma vaga de JÚNIOR na área
+                                                            de desenvolvimento back-end, estou apto a aprender e me desenvolver diantes os ensinamentos!. Atualmente estou no 5º semestre conclusão em junho de 2022.! </p>
+                                                </div>
+                                          </div>
+                                          <div class="row">
+                                                <div class="personal-info padd-15">
+                                                      <div class="row">
+                                                            <div class="info-item padd-15">
+                                                                  <p>Aniversário : <span>23 Dez 2000</span></p>
+                                                            </div>
+                                                            <div class="info-item padd-15">
+                                                                  <p>Idade : <span>21</span></p>
+                                                            </div>
+                                                            <div class="info-item padd-15">
+                                                                  <p>Email : <span>xandredepaula2312@gmail.com</span>
+                                                                  </p>
+                                                            </div>
+                                                            <div class="info-item padd-15">
+                                                                  <p>Telefone : <span>+55 (011) 98752-7124</span></p>
+                                                            </div>
+                                                            <div class="info-item padd-15">
+                                                                  <p>Cidade : <span>São Paulo</span></p>
+                                                            </div>
+                                                      </div>
+                                                      <div class="row">
+                                                            <div class="buttons padd-15">
+                                                                  <a href="./pdf/Curriculo Xandre De Paula R.pdf" class="btn">Download CV</a>
+                                                                  <a href="#contact" class="btn hire-me">Contrate-me</a>
+                                                            </div>
+                                                      </div>
+                                                </div>
+
+                                                <!-- SKILLS -->
+
+                                                <div class="Skills padd-15">
+                                                      <div class="row">
+                                                            <div class="skill-item padd-15">
+                                                                  <h5>JAVA</h5>
+                                                                  <div class="progress">
+                                                                        <div class="progress-in" style="width: 86%;">
+                                                                        </div>
+                                                                        <div class="skill-percent">60%</div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="skill-item padd-15">
+                                                                  <h5>C#</h5>
+                                                                  <div class="progress">
+                                                                        <div class="progress-in" style="width: 94%;">
+                                                                        </div>
+                                                                        <div class="skill-percent">65%</div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="skill-item padd-15">
+                                                                  <h5>.NET Framework</h5>
+                                                                  <div class="progress">
+                                                                        <div class="progress-in" style="width: 81%;">
+                                                                        </div>
+                                                                        <div class="skill-percent">50%</div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="skill-item padd-15">
+                                                                  <h5>Banco de dados - MYSQL</h5>
+                                                                  <div class="progress">
+                                                                        <div class="progress-in" style="width: 73%;">
+                                                                        </div>
+                                                                        <div class="skill-percent">80%</div>
+                                                                  </div>
+                                                            </div>
+
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div class="row">
+                                                <div class="education padd-15">
+                                                      <h3 class="title">Educação</h3>
+                                                      <div class="row">
+                                                            <div class="timeline-box padd-15">
+                                                                  <div class="timeline shadow-dark">
+                                                                        <!-- ==== timeline item ===-->
+                                                                        <div class="timeline-item">
+                                                                              <div class="circle-dot"></div>
+                                                                              <h3 class="timeline-date">
+                                                                                    <i class="fa fa-calendar"></i> 2020
+                                                                                    - 2022
+                                                                              </h3>
+                                                                              <h4 class="timeline-title">Universidade
+                                                                                    Nove De Julho
+                                                                              </h4>
+                                                                              <p class="timeline-text">5º Semestre</p>
+                                                                              <p class="timeline-text">Análise
+                                                                                    Desenvolvimento De Sistemas</p>
+
+
+                                                                        </div>
+                                                                        <div class="timeline-item">
+                                                                              <div class="circle-dot"></div>
+                                                                              <h3 class="timeline-date">
+                                                                                    <i class="fa fa-calender"></i>
+                                                                              </h3>
+                                                                              <h4 class="timeline-title">Escola SENAI
+                                                                                    "Frederico Jacob" Manutenção
+                                                                                    Industrial</h4>
+                                                                              <p class="timeline-text">Programação JAVA
+                                                                                    (160 horas).</p>
+                                                                               
+                                                                                    
+                                                                                    <div class="circle-dot"></div>
+                                                                                    <h3 class="timeline-date">
+                                                                                          <i class="fa fa-calender"></i>
+                                                                                    </h3>
+                                                                                    <h4 class="timeline-title">Instituto Educacional Alto Tietê - Informática Avançada</h4>
+                                                                                    <p class="timeline-text">- Excel: Avançado</p>
+                                                                                    <p class="timeline-text">- Word: Avançado</p>
+                                                                                    <p class="timeline-text">- PowerPoint: Avançado</p>
+                                                                                    <p class="timeline-text">- Acess: Avançado</p>
+                                                                                    <p class="timeline-text">- Internet: Avançado</p>
+                                                                                    <p class="timeline-text">- Redes Sociais: Avançado</p>
+                                                                                    <p class="timeline-text">- Total: (118 Horas).</p>
+                                                                                    
+                                                                        </div>
+                                                                        
+                                                                      
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                                <div class="experience padd-15">
+                                                      <h3 class="title">Experiência</h3>
+                                                      <div class="row">
+                                                            <div class="timeline-box padd-15">
+                                                                  <div class="timeline shadow-dark">
+                                                                        <!-- ==== timeline item ===-->
+                                                                        <div class="timeline-item">
+                                                                              <div class="circle-dot"></div>
+                                                                              <h3 class="timeline-date">
+                                                                                    <i class="fa fa-calendar"></i> 2018
+                                                                              </h3>
+                                                                              <h4 class="timeline-title">Attitude
+                                                                                    Contact Center </h4>
+                                                                              <p class="timeline-text">Jovem Aprendiz
+                                                                              </p>
+                                                                              <p class="timeline-text">Setor de Cobrança
+                                                                                    – (4380 Horas).</p>
+
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+
+                  <!-- ====== About Section End ====== -->
+                  <!-- ====== Services Section Start ====== -->
+                  <section class="service section" id="services">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="section-title padd-15">
+                                          <h2>Serviços</h2>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <!-- ==== Service item start ==== -->
+                                    <div class="service-item padd-15">
+                                          <div class="service-item-inner">
+                                                <div class="icon">
+                                                      <i class="fa fa-globe"></i>
+                                                </div>
+                                                <h4 >Desenvolvimento Web</h4>
+                                          </div>
+                                          </div>
+
+                                          <!-- ==== Service item end ==== -->
+
+                                          <!-- ==== Service item start ==== -->
+
+                                          <div class="service-item padd-15">
+                                                <div class="service-item-inner">
+                                                      <div class="icon">
+                                                            <i class="fa fa-laptop-code"></i>
+                                                      </div>
+                                                      <h4>Site de jogo e afins</h4>
+                                                      
+                                                
+                                          </div>
+                                          </div>
+                                    <!-- ==== Service item end ==== -->
+                                    
+                                    <!-- ==== Service item start ==== -->
+
+                                    <div class="service-item padd-15">
+                                          <div class="service-item-inner">
+                                                <div class="icon">
+                                                      <i class="fa fa-globe"></i>
+                                                </div>
+                                                <h4>Freelancer</h4>
+                                                  
+                                    </div>
+                                    </div>
+                           
+                              <!-- ==== Service item end ==== -->
+
+                               <!-- ==== Service item start ==== -->
+
+                               <div class="service-item padd-15">
+                                    <div class="service-item-inner">
+                                          <div class="icon">
+                                                <i class="fa fa-globe"></i>
+                                          </div>
+                                          <h4>Blogs Responsivos</h4>
+                                          
+                                    
+                              </div>
+                              </div>
+                        <!-- ==== Service item end ==== -->
+                              <!-- ==== Service item start ==== -->
+
+                              <div class="service-item padd-15">
+                                    <div class="service-item-inner">
+                                          <div class="icon">
+                                                <i class="fa fa-globe"></i>
+                                          </div>
+                                          <h4>Sistema de delivery</h4>
+                                          
+                                    
+                              </div>
+                              </div>
+                        <!-- ==== Service item end ==== -->
+                                 <!-- ==== Service item start ==== -->
+
+                                 <div class="service-item padd-15">
+                                    <div class="service-item-inner">
+                                          <div class="icon">
+                                                <i class="fa fa-globe"></i>
+                                          </div>
+                                          <h4>Sistema de e-commerce</h4>
+                                          
+                                    
+                              </div>
+                              </div>
+                        <!-- ==== Service item end ==== -->
+                              </div>
+                        </div>
+                  </section>
+                  <!-- ====== Services Section end ====== -->
+                   <!-- ==== Portfolio Section start ==== -->
+                   <section class="portfolio section" id="portfolio">
+                      <div class="container">
+                        <div class="row">
+                              <div class="section-title padd-15">
+                                    <h2>Portfólio</h2>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <div class="portfolio-heading padd-15">
+                                    <h2>Meus últimos projetos: </h2>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <!-- ==== Portfolio item start ==== -->
+                              <div class="portfolio-item padd-15">
+                                    <div class="portfolio-item-inner padd-15 shadow-dark">
+                                          <div class="portfolio-img padd-15">
+                                                <img src="images/portfolio/port14.jpeg" alt=""><br>
+                                                <h1><a text-align="center" href="https://github.com/Xandre23/Sistema-de-delivery">Pizzaria Delivery</a></h1>
+                                                <p class="contact-title padd-15">Sistema web feito em JAVA sendo assim um trabalho acâdemico, utilizamos as boas práticas de programação</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- ==== Portfolio item end==== -->
+
+                               <!-- ==== Portfolio item start ==== -->
+                               <div class="portfolio-item padd-15">
+                                    <div class="portfolio-item-inner shadow-dark">
+                                          <div class="portfolio-img">
+                                                <img src="images/portfolio/principal13.png" alt="">
+                                                <h1><a text-align="center" href="https://github.com/Xandre23/Projeto-pratico-CHAT">Chat Web</a></h1>
+                                                <p class="contact-title padd-15">Projeto acâdemico desenvolvido em ASP.NET CORE, usando boas práticas de programação.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- ==== Portfolio item end==== -->
+
+                               <!-- ==== Portfolio item start ==== -->
+                               <div class="portfolio-item padd-15">
+                                    <div class="portfolio-item-inner shadow-dark">
+                                          <div class="portfolio-img">
+                                                <img src="https://github.com/Xandre23/Sistema" alt="">
+                                                <h1 ><a text-align="center" href="https://github.com/Xandre23/Sistema-de-delivery">Biblioteca Web</a></h1>
+                                                <p class="contact-title padd-15">Em Desenvolvimento</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- ==== Portfolio item end==== -->
+                        </div>
+                      </div>   
+
+                   </section>
+                   <!-- ==== Portfolio Section END ==== -->
+                    <!-- ==== Contact Section start ==== -->
+                    <section class="contact section" id="contact">
+                          <div class="container">
+                              <div class="row">
+                                    <div class="section-title padd-15">
+                                          <h2>Contate-me</h2>
+                                    </div>
+                              </div>
+                              <h3 class="contact-title padd-15">Tem alguma pergunta?</h3>
+                              <h4 class="contact-sub-title padd-15">Entre em contato</h4>
+                              <div class="row">
+                               <!-- ==== Contact info item start ==== -->
+                               <div class="contact-info-item padd-15">
+                                    <div class="icon "><i class="fa fa-phone"></i></div> 
+                                    <h4>Contato</h4>
+                                    <p>+55 (11) 98752-7124</p>
+                               </div>
+                               <!-- ==== Contact info item end ==== -->
+
+                                <!-- ==== Contact info item start ==== -->
+                                <div class="contact-info-item padd-15">
+                                    <div class="icon "><i class="fa fa-envelope"></i></div> 
+                                    <h4>Email</h4>
+                                    <p>xandredepaula2312@gmail.com</p>
+                               </div>
+                               <!-- ==== Contact info item end ==== -->
+                               <nav class="navSocialNetworksPresentation padd-15">
+                                    <a href="https://www.linkedin.com/in/xandre23/" target="black">
+                                        <img src="./img/icon_linkedin.svg " alt="Icone do linkedin">
+                                    </a>
+                                    
+                                    </a>
+                                    <a href="https://github.com/xandre23" target="black">
+                                        <img src="./img/icon_GuitHub.svg" alt="Icone do GuitHub">
+                                    </a>
+                                    <a href=" https://wa.me/5511987527124" target="black">
+                                        <img src="./img/icon_whatsapp.svg" alt="Icone do Whatsapp">
+                                    </a>
+                                </nav>
+            <!-- ====== Main Content End ====== -->
+
+      </div>
+
+      <!-- ====== Main Container End ====== -->
+       <!-- ====== Style Switcher start ====== -->
+            <div class="style-switcher">
+                  <div class="style-switcher-toggler s-icon">
+                        <i class="fas fa-cog fa-spin"></i>
+                  </div>
+                  <div class="day-night s-icon">
+                        <i class="fas "></i>
+                  </div>
+                  <h4>Cores do Tema</h4>
+                  <div class="colors">
+                        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+                  </div>
+            </div>
+        <!-- ====== Style Switcher end ====== -->
+      <!-- ====== JS FILES ====== -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+      <script src="scripts\scripts.js"></script>
+      <script src="scripts\style-switcher.js"></script>
 </body>
 
 </html>
